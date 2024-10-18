@@ -1,23 +1,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 :root{ 
-    --cor-de-fundo: #498ff0;
-    --verde:#002aff;
-    --branco:#0c5f9a;
-    --botao-ativo:#8370fc;
-    --botao-inativo: rgba(126, 226, 251, 0.5);
-    --texto-fundo: rgba(24, 8, 243, 0.3);
-     color: rgb(16, 138, 44);
+    --cor-de-fundo: #78aaf0;
+    --verde:#5227bd;
+    --branco:#31e9ac;
+    --botao-ativo:#0a9bd4;
+    --botao-inativo: rgba(67, 50, 174, 0.5);
+    --texto-fundo: rgba(154, 156, 241, 0.3);
 }
 
 
 body{
-background-color: rgba(194, 189, 243, 0.866);
+background-color: rgba(232, 182, 226, 0.866);
 font-family: 'lobster', sans-serif;
 }
 
 h2 {
-color: rgb(24, 123, 205);
+color: rgb(56, 3, 51);
 }
 
 .conteudo-principal{
@@ -86,7 +85,7 @@ background-color: var(--texto-fundo);
 }
 
 .contador{
-    font-size: 40px;
+     font-size: 40px;
     text-align: center; 
     display: flex;
     justify-content: center;
@@ -94,7 +93,7 @@ background-color: var(--texto-fundo);
 
 .contador-digito{
     padding: 0 26px; 
-    text-align: center; 
+    text-align: center;   
 }
 
 .contador-digito-numero{
